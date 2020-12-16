@@ -20,6 +20,5 @@ public class DateHourJava8_Choice {
         System.out.println(now);
         System.out.println(atZone);
         ZonedDateTime plusMonths = atZone.plusMonths(1);
-
     }
 }
