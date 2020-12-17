@@ -15,6 +15,7 @@ public class DateHourJava8 {
         System.out.println(ld2);
 
         // LocalTime - representa uma hora: 11:40:00
+        //
         LocalTime ltNow = LocalTime.now();
         System.out.println(ltNow);
         LocalTime lt = LocalTime.of(11, 10, 01, 100000);
